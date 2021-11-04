@@ -6,10 +6,6 @@ print("the minimum of the list is:", min(my_list))
 my_list1 = ("anitha", 21, 2000)
 print(list(my_list1))
 
-list1 = [1,2,3,4]
-list2 = [1,2,3,4]
-print("the comparision of the list1 and list2 is:", cmp(list1, list2))
-
 
 
 
