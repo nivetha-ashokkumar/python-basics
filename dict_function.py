@@ -18,6 +18,3 @@ details2 = {"age" : 25}
 details1.update(details2)
 
 print(details1)
- fdvdvdf
-
- tjth
