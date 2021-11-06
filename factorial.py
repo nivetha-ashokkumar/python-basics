@@ -1,17 +1,21 @@
-def factorial(a, b):
-    temp = a
-    a = b
-    b = temp
-    return a, b
-a = int(input("enter a value:"))
-b = int(input("enter b vakue:"))
-c = factorial(a, b)
-print("factorial is:", c)
-def check(c):
-    if(c != int):
+def factorial(number1, number2):
+    temp = number1
+    number1 = number2
+    number2 = temp
+    return number1, number2
+
+
+number1 = int(input("enter first value:"))
+number2 = int(input("enter second vakue:"))
+result = factorial(nnumber1, number2)
+print("factorial is:", result)
+
+
+def check(result):
+    if(result != int):
         try:
             print(" given input is not integer")
         except:
             print("error")
-    return c
+    return result
             
