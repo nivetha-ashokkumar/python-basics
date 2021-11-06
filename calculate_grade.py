@@ -3,14 +3,18 @@ class calculate:
         self.mark1 = mark1
         self.mark2 = mark2
         self.mark3 = mark3
-c1 = calculate(80, 70, 76)
-print(c1.mark1)
-print(c1.mark2)
-print(c1.mark3)
-total_mark = c1.mark1 + c1.mark2 + c1.mark3
-avg = total_mark/3
+        
+values = calculate(80, 70, 76)
+
+print(values.mark1)
+print(values.mark2)
+print(values.mark3)
+
+total_mark = values.mark1 + values.mark2 + values.mark3
+average = total_mark/3
+
 print(total_mark)
-print(avg)
+print(average)
 
 def grade(mark):
     if(mark>=80):
@@ -21,6 +25,7 @@ def grade(mark):
         return "your grade is b"
     else:
         return "fail"
+    
 mark = int(input("enter your mark:"))
 result = grade(mark)
 print(result)
