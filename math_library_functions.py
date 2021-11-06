@@ -2,6 +2,7 @@ import math
 
 first_number = int(input('enter first value'))
 second_number = int(input('enter second value'))
+
 print(math.sqrt(first_number))
 print(math.pow(first_number, second_number))
 print(math.ceil(second_number))
