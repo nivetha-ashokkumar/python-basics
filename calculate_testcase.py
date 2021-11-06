@@ -1,5 +1,4 @@
 import unittest
-from calculate import calculate_addition, calculate_subtraction
 
 
 class Testcalculate_addition(unittest.TestCase):
@@ -26,3 +25,9 @@ class Testcalculate_addition(unittest.TestCase):
         b = "cd"
         c = calculate_addition(a,b)
         self.assertEqual(c, "abcd")
+        with self.assertRaises(TypeError):
+            c.calculate_addition(2)
+  
+        
+if __name__ == '__main__':
+    unittest.main()
