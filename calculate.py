@@ -1,21 +1,21 @@
-def calculate_addition(a ,b):
-    return a + b
+def calculate_addition(number1, number2):
+    return number1 + number2
 
 
-def calculate_subtraction(a, b):
-    return a - b
+def calculate_subtraction(number1, number2):
+    return number1 - number2
 
-a = int(input("enter a value:"))
-b = float(input("enter b value"))
-c = calculate_addition(a, b)
-print(c)
+number1 = int(input("enter first value:"))
+number2 = float(input("enter second value"))
+addition = calculate_addition(number1, number2)
+print(addition)
     
-def check(c):
-    if(c == str):
+def check(addition):
+    if(addition == str):
         print(str)
     else:
-        print(c)
+        print(addition)
 
-d = calculate_subtraction(a,b)
-print(d)
+subtraction = calculate_subtraction(number1, number2)
+print(subtraction)
 
