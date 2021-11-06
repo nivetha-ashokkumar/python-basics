@@ -4,5 +4,6 @@ def sum(*args, **kwargs):
 
 args1 = int(input("enter args value:"))
 kwargs1 = int(input("enter kwargs value:"))
+
 result = sum(args1, kwargs1)
 print(result)
