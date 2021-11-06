@@ -1,5 +1,6 @@
-key = input("enter your name:")
+name = input("enter your name:")
 mark =int(input("enter your mark:"))
+
 if(mark >= 90):
     if(mark >= 80) and (mark <= 90):
         print("you can do better")
